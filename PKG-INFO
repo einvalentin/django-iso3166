@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: django-iso3166
-Version: 10.1.1
+Version: 10.2.1
 Summary: This is a application for Django projects providing list of world countries based on ISO3166.
 Home-page: https://trac.co-capacity.biz/trac/cocap/wiki/django-ISO3166
 Author: Co-Capacity
