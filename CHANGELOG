@@ -2,6 +2,13 @@
 django-iso3166 changelog
 ========================
 
+Version 10.2, 15 Mar 2012
+-------------------------
+Removed database dependent field types. It was hardcoded against an old
+(since django 1.4 removed) configuration of the database backends and its
+only purpose was to support database constraints for the size of smallints
+in postgresql and oracle backends.
+
 Version 10.1, 26 Jan 2010
 -------------------------
 Packaged from revision 105 in Subversion; download at
