@@ -1,0 +1,9 @@
+include AUTHORS
+include CHANGELOG
+include INSTALL
+include LICENSE
+include MANIFEST.in
+include README
+recursive-include iso3166/locale *
+exclude bootstrap.py
+exclude buildout.cfg

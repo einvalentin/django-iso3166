@@ -1,0 +1,10 @@
+========================
+django-iso3166 changelog
+========================
+
+Version 10.1, 26 Jan 2010
+-------------------------
+Packaged from revision 105 in Subversion; download at
+http://files.co-capacity.biz/iso3166/releases/django-iso3166-10.1.tar.gz
+
+* First packaged version using distutils.

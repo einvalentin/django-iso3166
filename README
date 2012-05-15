@@ -1,0 +1,49 @@
+==============
+Django ISO3166
+==============
+
+``ISO 3166`` is a three-part standard published by the Organization for
+Standardization (ISO), and defines codes for the names of countries, dependent
+territories, and special areas of geographical interest, and their principal
+subdivisions (e.g., provinces or states). The official name is Codes for the
+representation of names of countries and their subdivisions.
+
+This project only uses one part of the standard, ISO 3166-1, It defines three
+sets of country codes:
+
+* alpha-2 : two-letter country codes which are the most widely used of the
+  three.
+* alpha-3 : three-letter country codes.
+* numeric : three-digit country codes which are identical to those developed
+  and maintained by the United Nations Statistics Division, with the advantage
+  of script (writing system) independence, and hence useful for people or
+  systems using non-Latin scripts.
+
+===========================
+Basic configuration and use
+===========================
+Once installed, you can add django-iso3166 to any Django-based project you're
+developing. The only thing needed is to add ``iso3166`` to your
+``INSTALLED_APPS`` setting.
+
+================
+Automatic Update
+================
+This application comes with automatic update feature, this will only update the
+ models in this application. Use the management command:
+    python manage.py updateISO3166
+
+You can adjust the default urls provided, by specify the
+``ISO3166_SOURCES`` setting appropriately. It should point to a fixture
+containing only fixtures for iso3166, it will consume xml or json format dumps.
+
+Default ``ISO3166_SOURCES`` setting::
+
+    urls = (
+        "http://files.co-capacity.biz/iso3166/latest.json.bz2",
+        "http://files.co-capacity.biz/iso3166/latest.xml.bz2",
+        "http://files.co-capacity.biz/iso3166/latest.json.gz",
+        "http://files.co-capacity.biz/iso3166/latest.xml.gz",
+        "http://files.co-capacity.biz/iso3166/latest.json",
+        "http://files.co-capacity.biz/iso3166/latest.xml",
+    )

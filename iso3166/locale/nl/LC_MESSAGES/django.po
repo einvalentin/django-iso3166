@@ -1,0 +1,68 @@
+# Copyright (c) 2009-2010, Co-Capacity.
+# This file is distributed under the same license as the iso3166 package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 10.1\n"
+"Report-Msgid-Bugs-To: Co-Capacity <django-iso3166@Co-Capacity.org>\n"
+"POT-Creation-Date: 2010-01-26 12:36+0100\n"
+"PO-Revision-Date: 2010-01-26 12:49+0100\n"
+"Last-Translator: Michiel Bijland\n"
+"Language-Team: Co-Capacity <django-iso3166@Co-Capacity.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\admin.py:20
+#: .\models.py:34
+msgid "countries"
+msgstr "landen"
+
+#: .\models.py:28
+msgid "ISO numeric"
+msgstr "ISO numeriek"
+
+#: .\models.py:29
+msgid "ISO alpha-2"
+msgstr "ISO alpha-2"
+
+#: .\models.py:30
+msgid "ISO alpha-3"
+msgstr "ISO alpha-3"
+
+#: .\models.py:33
+msgid "country"
+msgstr "land"
+
+#: .\models.py:90
+msgid "language"
+msgstr "taal"
+
+#: .\models.py:92
+msgid "display name"
+msgstr "weergavenaam"
+
+#: .\models.py:94
+msgid "example: &quot;British Virgin Islands&quot"
+msgstr "voorbeeld: &quot;British Virgin Islands&quot"
+
+#: .\models.py:95
+msgid "inverted name"
+msgstr "inverted name"
+
+#: .\models.py:97
+msgid "Official name, UPPERCASE. example: &quot;VIRGIN ISLANDS, BRITISH&quot;"
+msgstr "Officiële naam, HOOFDLETTERS. voorbeeld: &quot;VIRGIN ISLANDS, BRITISH&quot;"
+
+#: .\models.py:100
+msgid "country name"
+msgstr "landnaam"
+
+#: .\models.py:101
+msgid "country names"
+msgstr "landnamen"
+
+#: .\models.py:117
+msgid "name of the region"
+msgstr "regionaam"
+
