@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 10.1\n"
+"Project-Id-Version: 10.2\n"
 "Report-Msgid-Bugs-To: Co-Capacity <django-iso3166@Co-Capacity.org>\n"
 "POT-Creation-Date: 2010-01-26 12:36+0100\n"
 "PO-Revision-Date: 2010-01-26 12:38+0100\n"
